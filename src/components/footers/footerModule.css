@@ -1,0 +1,5 @@
+svg.text-gradient-red {
+    background: radial-gradient(87.5% 87.5% at 29.69% 6.25%, #970000 0, #400707);
+    -webkit-background-clip: text !important;
+    color: #970000;
+}

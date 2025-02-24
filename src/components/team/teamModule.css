@@ -1,0 +1,30 @@
+/* ===================team-item=============== */
+.team-item-box {
+    transition: all .35s ease-in-out;
+    box-shadow: 0 0 5px #b0afaf;
+    border-radius: .2rem;
+    padding-top: auto;
+    padding-bottom: auto;
+    overflow: hidden;
+    /* height: 100%; */
+}
+
+.team-item-box:hover {
+    box-shadow: 0 0 10px #000000;
+}
+.doc-section-title{
+    height: 100% !important;
+}
+.doc-section-title h1    {
+    color: var(--secondary) !important;
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+.doc-section-title h2{
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+.btn-square {
+    width: 36px;
+    height: 36px;
+}

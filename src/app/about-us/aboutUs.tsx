@@ -10,7 +10,7 @@ function AboutUs() {
     <section className="relative pt-20 bg-gray-100">
         <div className="absolute top-0 left-0 w-1/3 opacity-50">
           <Image
-            src="https://www.wsclinic.org/assets/shap1-DdqUTQun.png"
+            src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647813/shap1_ixhwud.png"
             alt="Shape"
             className="w-full h-100"
             width={100}
@@ -24,7 +24,7 @@ function AboutUs() {
             {/* Left - Image & Video */}
             <div className="thumb-box">
               <Image
-                src="https://www.wsclinic.org/assets/2-wtKKrWFI.jpg"
+                src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647750/2_bjpgaf.jpg"
                 alt="About"
                 className="w-full h-full object-cover"
                 width={500}

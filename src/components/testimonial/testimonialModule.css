@@ -1,7 +1,7 @@
 .bg-textimonial {
     /* background-image: linear-gradient(to bottom right,rgba(245, 109, 109, 0.589), #e1e1e1 ); */
     background: #e9e8e8;
-    background-image: url(https://www.wsclinic.org/assets/shap2-Ds_1MzHa.png), url(https://www.wsclinic.org/assets/shap1-DdqUTQun.png);
+    background-image: url(https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647813/shap2_m4fsrp.png), url(https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647813/shap1_ixhwud.png);
     background-position: right bottom, left top;
     background-repeat: no-repeat;
     background-size: 30%;

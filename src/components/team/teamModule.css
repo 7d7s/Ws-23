@@ -12,9 +12,7 @@
 .team-item-box:hover {
     box-shadow: 0 0 10px #000000;
 }
-.doc-section-title{
-    height: 100% !important;
-}
+
 .doc-section-title h1    {
     color: var(--secondary) !important;
     text-transform: uppercase;
@@ -28,3 +26,15 @@
     width: 36px;
     height: 36px;
 }
+
+@media (min-width: 320px) {
+    .doc-section-title{
+    height: 50vh;
+}
+   
+    }
+    @media (min-width: 1024px) {
+        .doc-section-title{
+            height: 100%;
+        }
+    }

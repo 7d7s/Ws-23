@@ -1,10 +1,11 @@
+"use client"
 import Image from "next/image";
 import Banner from '@/components/banner/index'
 
 const doctors = [
   {
     id: "psychologist",
-    image: "https://www.wsclinic.org/assets/UpinderKaur-DXLFXhH_.png", // Update with actual image path
+    image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647818/UpinderKaur_tlq0di.png",  
     name: "Ms. Upinder Kaur",
     title: "Masters in Psychology Therapist, Counsellor",
     experience: "21 Years of Experience",
@@ -17,7 +18,7 @@ const doctors = [
   },
   {
     id: "General-Physician",
-    image: "https://www.wsclinic.org/assets/AmitHarshana-removebg-preview-CVU8wvs4.png",
+    image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647752/AmitHarshana_mghg54.png",
     name: "Dr. Amit Harshana",
     title: "General Physician & HIV/ AIDS",
     description: `
@@ -37,7 +38,7 @@ const doctors = [
   },
   {
     id: "Gynaecologist",
-    image: "https://www.wsclinic.org/assets/Divija-T1GDtcfp.png",
+    image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647772/Divija_m9cdkg.png",
     name: "Dr. Divija Chugh",
     title1: "MBBS, MS - Obstetrics & Gynaecology Obstetrician, Gynecologist",
     title2: "Gynecologist Specialist",
@@ -58,7 +59,7 @@ const doctors = [
   },
   {
     id: "ENT/Hearing",
-    image: "https://www.wsclinic.org/assets/Divija-T1GDtcfp.png",
+    image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647798/Nitya_vhbqf3.png",
     name: "Dr. Nitya Subramanian",
     title1:
       "MBBS, Diploma in Otorhinolaryngology (DLO), DNB - Otorhinolaryngology ENT/ Otorhinolaryngologist",
@@ -73,7 +74,7 @@ const doctors = [
   },
   {
     id: "Nephrologist",
-    image: "https://www.wsclinic.org/assets/Divija-T1GDtcfp.png",
+    image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647757/BhanuMishra2_axelm8.png",
     name: "Dr. Bhanu Mishra",
     title1:
       "MBBS, MD - General Medicine, DNB - Nephrology Nephrologist/Renal Specialist, Internal Medicine",
@@ -88,7 +89,7 @@ const doctors = [
   },
   {
     id: "Cardiologist",
-    image: "https://www.wsclinic.org/assets/Divija-T1GDtcfp.png",
+    image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647794/Naveen_sh5abr.png",
     name: "Dr. Naveen Bhamri",
     title1: "MBBS, MD - Medicine, DM - Cardiology",
     title2: "MBBS, Cardiologist Specialist",
@@ -102,7 +103,7 @@ const doctors = [
   },
   {
     id: "Orthopaedic",
-    image: "https://www.wsclinic.org/assets/MadhurMahna-C8YznAH7.png",
+    image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647790/MadhurMahna_havhjo.png",
     name: "Dr. Madhur Mahna",
     title1:
       "MBBS, DNB - Orthopedics/Orthopaedic Surgery, Joint Replacement Surgeon, Spine And Pain Specialist, Orthopaedic surgeon",
@@ -117,7 +118,7 @@ const doctors = [
   },
   {
     id: "Plastic-Cosmetic-Surgeon",
-    image: "https://www.wsclinic.org/assets/SachinRajpal-Bwf_rbeo.png",
+    image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647809/SachinRajpal_go363x.png",
     name: "Dr. Sachin Rajpal",
     title1:
       "MS - General Surgery, MCh - Burns & Plastic Surgery, MBBS Plastic Surgeon",
@@ -132,7 +133,7 @@ const doctors = [
   },
   {
     id: "Psychiatrist",
-    image: "https://www.wsclinic.org/assets/Harish-BAwc9Oa4.png",
+    image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647785/Harish_belwlk.png",
     name: "Dr. Harish Chandra",
     title1: "DNB - Psychiatry, MBBS Psychiatrist",
     title2: "Psychiatrist Specilists",
@@ -147,7 +148,7 @@ const doctors = [
 
   {
     id: "Physiotherapist",
-    image: "https://www.wsclinic.org/assets/Harish-BAwc9Oa4.png",
+    image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647818/UpinderKaur_tlq0di.png",
     name: "Ms. Upinder Kaur",
     title1: "Masters in Psychology Therapist, Counsellor",
     title2: "Physiotherapist Specilists",
@@ -168,7 +169,7 @@ const Doctors = () => {
     const aboutBanner = {
         title: "Doctors",
         subtitle: "Doctors",
-        backgroundImage: "https://www.wsclinic.org/assets/contactimg-BySp04I7.jpg", // Custom image for About page
+        backgroundImage: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647774/doctors_ewmtk3.jpg", // Custom image for About page
       };
   return (
     <>  
@@ -184,8 +185,8 @@ const Doctors = () => {
             <Image
               src={doctor.image}
               alt={doctor.name}
-              width={100}
-              height={100}
+              width={500}
+              height={500}
               className="rounded-lg object-cover w-full h-auto"
             />
           </div>

@@ -11,7 +11,7 @@ function About() {
   const aboutBanner = {
     title: "About",
     subtitle: "About-Us",
-    backgroundImage: "https://www.wsclinic.org/assets/contactimg-BySp04I7.jpg", // Custom image for About page
+    backgroundImage: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647753/about-us_raocxn.jpg", // Custom image for About page
   };
   return (
     <>

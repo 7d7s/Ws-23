@@ -52,7 +52,7 @@ const DoctorsTeam: React.FC<DoctorsTeamProps> = ({ teamMembers }) => {
               <h2 className="text-4xl font-bold text-gray-700 mb-4">
                 Our Expert Doctors, Our Backbone
               </h2>
-              <Button text="Book Appointment" link="/Contact#FixAppointment" className="mt-7 py-4 px-7" />
+              <Button text="Book Appointment" link="/contactus" className="mt-7 py-4 px-7" />
             </div>
           </div>
 

@@ -1,6 +1,5 @@
 import ContectUs from "@/components/contactus/index";
 import './appointmentModule.css'
-import Link from "next/link";
 
 function Appoinment() {
   return (
@@ -22,7 +21,7 @@ function Appoinment() {
               >
                     <h1 className="text-2xl md:text-4xl text-white mb-5 font-bold">Book An Appointment</h1>
           <ContectUs/>
-          <Link href="#" className="btn-airtel mt-7 py-4 px-7 rounded-md">Book An Appointment</Link>
+          {/* <Link href="#" className="btn-airtel mt-7 py-4 px-7 rounded-md">Book An Appointment</Link> */}
     
           </div>
         </div>

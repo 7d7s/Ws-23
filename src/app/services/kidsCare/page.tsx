@@ -13,7 +13,7 @@ const KidsCare = () => {
     {
       title: "Occupational Therapy",
       text: "Our occupational therapists help patients regain independence in daily activities, focusing on improving physical, cognitive, and sensory skills.",
-      imgSrc: "https://www.wsclinic.org/assets/41-DdUFz2NZ.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740746084/Occupational_sou3uh.png",
       imgAlt: "Occupational Therapy",
       reverse: false,
       id: "Servic-OccupationalTherapy",
@@ -22,7 +22,7 @@ const KidsCare = () => {
     {
       title: "Speech Therapy",
       text: "Our speech therapists assist individuals with speech, language, and swallowing disorders, helping to improve communication skills.",
-      imgSrc: "https://www.wsclinic.org/assets/42-DgefAtIF.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740746083/Speech_k1et2i.png",
       imgAlt: "Speech Therapy",
       reverse: true,
       id: "Servic-SpeechTherapy",
@@ -31,7 +31,7 @@ const KidsCare = () => {
     {
       title: "Child Specialist",
       text: "Our dedicated child specialists offer compassionate care for children, from routine check-ups to managing complex pediatric conditions.",
-      imgSrc: "https://www.wsclinic.org/assets/GeneralPhysician-D0ttFtZD.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740746083/Child_Specialist_cqyf4w.png",
       imgAlt: "Child Specialist",
       reverse: false,
       id: "Servic-ChildSpecialist",

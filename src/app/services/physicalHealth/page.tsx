@@ -6,14 +6,14 @@ import Link from "next/link";
 const aboutBanner = {
     title: "Physical Health",
     subtitle: "Physical Health",
-    backgroundImage: "https://www.wsclinic.org/assets/contactimg-BySp04I7.jpg", // Custom image for About page
+    backgroundImage: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647810/servicesimg_svkeib.jpg", // Custom image for About page
   };
 const PhysicalHealth = () => {
   const services = [
     {
       title: "General Physician",
       text: "Our experienced general physicians provide comprehensive primary care, addressing a wide range of medical conditions with personalized treatment plans.",
-      imgSrc: "https://www.wsclinic.org/assets/GeneralPhyscian-BGfafHTQ.png", 
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647777/GeneralPhyscian_vmfl1u.png", 
       imgAlt: "General Physician",
       id: "Servic-GeneralPhysician",
       reverse: false,
@@ -21,7 +21,7 @@ const PhysicalHealth = () => {
     {
       title: "Gynaecologist",
       text: "Our skilled gynecologists provide expert care in women's health, including reproductive health, pregnancy, and menopause management.",
-      imgSrc: "https://www.wsclinic.org/assets/gynecology-B_ctusXN.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647784/gynecology_be9zqh.png",
       imgAlt: "Gynaecologist",
       id: "Servic-Gynaecologist",
       reverse: true,
@@ -29,7 +29,7 @@ const PhysicalHealth = () => {
     {
       title: "Dermatologist",
       text: "Our dermatologists specialize in treating skin, hair, and nail disorders, offering advanced solutions for a variety of dermatological conditions.",
-      imgSrc: "https://www.wsclinic.org/assets/GeneralPhyscian-BGfafHTQ.png", 
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647769/Dermatologist2_w8swkc.png", 
       imgAlt: "Dermatologist",
       reverse: false,
       id: "Servic-Dermatologist"
@@ -38,7 +38,7 @@ const PhysicalHealth = () => {
     {
       title: "Nephrologist",
       text: "Our nephrologists provide expert care for kidney-related issues, including chronic kidney disease, dialysis, and transplant preparation.",
-      imgSrc: "https://www.wsclinic.org/assets/gynecology-B_ctusXN.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647796/nephrologist_tngff4.png",
       imgAlt: "Nephrologist",
       reverse: true,
       id: "Servic-Nephrologist"
@@ -47,7 +47,7 @@ const PhysicalHealth = () => {
     {
       title: "Cardiologist",
       text: "Our cardiologists offer advanced care for heart health, including diagnostics, treatment, and management of cardiovascular diseases.",
-      imgSrc: "https://www.wsclinic.org/assets/GeneralPhyscian-BGfafHTQ.png", 
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647762/cardiologist2_exofhp.png", 
       imgAlt: "Cardiologist",
       reverse: false,
       id: "Servic-Cardiologist"
@@ -56,7 +56,7 @@ const PhysicalHealth = () => {
     {
       title: "Orthopedic",
       text: "Our orthopedic specialists treat musculoskeletal conditions, from fractures to joint replacements, ensuring optimal mobility and function.",
-      imgSrc: "https://www.wsclinic.org/assets/gynecology-B_ctusXN.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647799/orthopedics_wcdi2w.png",
       imgAlt: "Orthopedic",
       reverse: true,
       id: "Servic-Orthopedic"
@@ -65,7 +65,7 @@ const PhysicalHealth = () => {
     {
       title: "Diabetologist",
       text: "Our diabetologists provide specialized care for diabetes management, focusing on personalized treatment plans to control blood sugar levels.",
-      imgSrc: "https://www.wsclinic.org/assets/GeneralPhyscian-BGfafHTQ.png", 
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647771/DIABETOLOGIST_gsbnnj.png", 
       imgAlt: "Diabetologist",
       reverse: false,
       id: "Servic-Diabetologist"
@@ -74,7 +74,7 @@ const PhysicalHealth = () => {
     {
       title: "Physiotherapist",
       text: "Our physiotherapists provide rehabilitation for injuries and chronic conditions, enhancing physical function and promoting overall well-being.",
-      imgSrc: "https://www.wsclinic.org/assets/gynecology-B_ctusXN.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647803/physiotherapist_e9zr78.png",
       imgAlt: "Physiotherapist",
       reverse: true,
       id: "Service-Physiotherapist"
@@ -83,7 +83,7 @@ const PhysicalHealth = () => {
     {
       title: "Dietician",
       text: "Our dieticians offer personalized nutrition plans, promoting healthy eating habits and managing dietary-related health conditions.",
-      imgSrc: "https://www.wsclinic.org/assets/GeneralPhyscian-BGfafHTQ.png", 
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740745309/DIETICIAN2_mkb5sf.png", 
       imgAlt: "Dietician",
       reverse: false,
       id:"Servic-Dietician"
@@ -92,7 +92,7 @@ const PhysicalHealth = () => {
     {
       title: "Infectious Disease Specialists",
       text: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-      imgSrc: "https://www.wsclinic.org/assets/gynecology-B_ctusXN.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740745397/infection_derwaq.png",
       imgAlt: "Infectious",
       reverse: true,
       id: "Servic-IDS"

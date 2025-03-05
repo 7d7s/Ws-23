@@ -297,13 +297,14 @@
 .item-img {
     width: 100%;
     transition: all 1s;
-    object-fit: cover;
     overflow: hidden;
+    height: 450px;
 }
 
 .item-img img {
-    height: 450px;
+    height: 100%;
     object-fit: cover;
+    width: 100%;
 }
 
 .item-wrapper:hover .item-img {
@@ -323,11 +324,10 @@
 
 .display-4 {
     font-size: 1.3rem;
+    letter-spacing: 1px;
     /* padding-bottom: 20px; */
     word-break: break-word;
     word-wrap: break-word;
-    font-weight: 800;
-
 }
 
 .item-content a {

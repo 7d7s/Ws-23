@@ -35,11 +35,11 @@ const EnquirySection = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="relative h-full">
           <Image
-            src="https://www.wsclinic.org/assets/slider-b-img-01-BRGhQxS5.jpg"
+            src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647814/slider-b-img-01_mdebig.jpg"
             alt="Contact Image"
             className="rounded-lg w-full h-full object-cover"
-            width={100}
-            height={100}
+            width={1000}
+            height={1000}
           />
           <div className="hidden md:flex justify-between p-4 bg-white shadow-md rounded-md absolute bottom-4 left-4 right-4">
             <div>

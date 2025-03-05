@@ -2,7 +2,7 @@
     background: var(--dark);
 }
 .bg-appointment {
-    background: linear-gradient(rgba(9, 30, 62, .85), rgba(9, 30, 62, .85)), url(https://www.wsclinic.org/assets/carousel-1-C8nZFtiw.jpg) center center no-repeat;
+    background: linear-gradient(rgba(9, 30, 62, .85), rgba(9, 30, 62, .85)), url(https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647762/carousel-1_rpa8dk.jpg) center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }

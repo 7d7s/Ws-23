@@ -1,6 +1,7 @@
 "use client"
 import Image from "next/image";
 import Banner from '@/components/banner/index'
+import Link from "next/link";
 
 const doctors = [
   {
@@ -214,9 +215,9 @@ const Doctors = () => {
 
             {/* Appointment Button */}
             <div className="mt-6">
-              <button className="btn-airtel px-3 rounded py-2">
+              <Link href="/contact" className="px-4 py-2 rounded-md btn-airtel">
                 Book An Appointment
-              </button>
+              </Link>
             </div>
           </div>
         </div>

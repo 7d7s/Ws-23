@@ -31,8 +31,8 @@ const Footer: React.FC = () => {
             <h2 className="text-2xl  font-semibold mb-4">Quick Links</h2>
             <ul className="space-y-2">
               <li><Link href="/"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; Home</span></Link></li>
-              <li><Link href="/about"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; About Us</span></Link></li>
-              <li><Link href="/services"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; Services</span></Link></li>
+              <li><Link href="/about-us"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; About Us</span></Link></li>
+              <li><Link href="/services/physicalHealth"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; Services</span></Link></li>
               <li><Link href="/doctors"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; Doctors</span></Link></li>
               <li><Link href="/articles"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; Articles</span></Link></li>
               <li><Link href="/contact"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; Contact</span></Link></li>
@@ -43,12 +43,12 @@ const Footer: React.FC = () => {
           <div>
             <h2 className="text-2xl font-semibold mb-4">Popular Links</h2>
             <ul className="space-y-2">
-              <li><Link href="#"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; General Surgery</span></Link></li>
-              <li><Link href="#"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; Body Surgery</span></Link></li>
-              <li><Link href="#"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; Dermatology</span></Link></li>
-              <li><Link href="#"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; General Physician</span></Link></li>
-              <li><Link href="#"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; Skin Treatment</span></Link></li>
-              <li><Link href="#"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; Heart Surgery</span></Link></li>
+              <li><Link href="/"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; General Surgery</span></Link></li>
+              <li><Link href="/"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; Body Surgery</span></Link></li>
+              <li><Link href="/"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; Dermatology</span></Link></li>
+              <li><Link href="/"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; General Physician</span></Link></li>
+              <li><Link href="/"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; Skin Treatment</span></Link></li>
+              <li><Link href="/"><span className="hover:text-red-700 cursor-pointer flex items-center"><BsCaretRightFill style={{ fill: "url(#radial-gradient)" }}/> &nbsp; Heart Surgery</span></Link></li>
             </ul>
           </div>
 

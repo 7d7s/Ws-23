@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -10,7 +11,7 @@ import "./teamModule.css";
 
 const teamMemberData = [
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647818/UpinderKaur_tlq0di.png",
       name: 'Dr. Upinder Kaur',
       title: 'Psychologist',
       profileLink: '/doctors',
@@ -24,7 +25,7 @@ const teamMemberData = [
     },
   
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647752/AmitHarshana_mghg54.png",
       name: 'Dr. Amit Harshana',
       title: 'HIV/ AIDS',
       profileLink: '/doctors',
@@ -37,7 +38,7 @@ const teamMemberData = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647754/ankur_rtemyv.png",
       name: 'Dr. Ankur',
       title: 'Consultant Anesthesiologist',
       profileLink: '/doctors',
@@ -50,7 +51,7 @@ const teamMemberData = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647756/Arvind_suzyrj.png",
       name: 'Dr. Arvind',
       title: 'Psychiatrist',
       profileLink: '/doctors',
@@ -63,7 +64,7 @@ const teamMemberData = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647756/AshishShah_nzfzag.png",
       name: 'Dr. Ashish Shah ',
       title: 'Psychiatrist',
       profileLink: '/doctors',
@@ -76,7 +77,7 @@ const teamMemberData = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647757/BhanuMishra_onn9h7.png",
       name: 'Dr. Bhanu Mishra',
       title: 'Nephrologist',
       profileLink: '/doctors',
@@ -89,7 +90,7 @@ const teamMemberData = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647772/Divija_m9cdkg.png",
       name: 'Dr. Divija Chugh',
       title: 'Gynaecologist',
       profileLink: '/doctors',
@@ -102,7 +103,7 @@ const teamMemberData = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647785/Harish_belwlk.png",
       name: 'Dr. Harish Chandra ',
       title: 'Psychiatrist',
       profileLink: '/doctors',
@@ -115,7 +116,7 @@ const teamMemberData = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647790/MadhurMahna_havhjo.png",
       name: 'Dr. Madhur Mahna',
       title: 'Orthopaedic',
       profileLink: '/doctors',
@@ -128,7 +129,7 @@ const teamMemberData = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647791/Manoj_hbjztv.png",
       name: 'Dr. Manoj Goel',
       title: 'Senior Consultant Physician',
       profileLink: '/doctors',
@@ -141,7 +142,7 @@ const teamMemberData = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647794/Naveen_sh5abr.png",
       name: 'Dr. Naveen Bhamri',
       title: 'General Physician',
       profileLink: '/doctors',
@@ -154,7 +155,7 @@ const teamMemberData = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647798/Nitya_vhbqf3.png",
       name: 'Dr. Nitya Subramanian',
       title: 'ENT',
       profileLink: '/doctors',
@@ -167,7 +168,7 @@ const teamMemberData = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647809/Rajpal_mi0zfz.png",
       name: 'Dr. Rajpal Kaushik',
       title: 'Psychologist',
       profileLink: '/doctors',
@@ -180,7 +181,7 @@ const teamMemberData = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647809/SachinRajpal_go363x.png",
       name: 'Dr. Sachin Rajpal',
       title: 'Plastic & Cosmetic Surgeon',
       profileLink: '/doctors',
@@ -194,7 +195,7 @@ const teamMemberData = [
     },
     
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647819/Varun_wiiem9.png",
       name: 'Dr. Varun',
       title: 'Child Specialist',
       profileLink: '/doctors',
@@ -207,7 +208,7 @@ const teamMemberData = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647819/Virat_pxwplf.png",
       name: 'Dr. Virat',
       title: 'Physiotherapist',
       profileLink: '/doctors',
@@ -240,15 +241,17 @@ const DoctorsTeam = () => {
 
   return (
     <section className="Team_Section py-3 mt-3 overflow-x-hidden">
-      <div className="container mx-auto md:p-0 p-5">
+      <div className="container mx-auto md:px-10 px-4">
         <div className="md:flex">
           {/* Left Side Content */}
           <div className="w-full md:w-1/3 md:py-12">
-            <div className="doc-section-title bg-gray-50 team-item-box rounded-lg px-20 py-10 md:py-0 flex flex-col justify-center items-center">
-              <h2 className="text-4xl font-bold text-gray-700 mb-4">
+            <div className="doc-section-title bg-gray-50 team-item-box rounded-lg flex flex-col justify-center items-center">
+              <div className="container mx-auto md:px-24 px-5">
+              <h2 className=" font-bold text-gray-700 mb-4" style={{lineHeight:1.3}}>
                 Our Expert Doctors, Our Backbone
               </h2>
-              <Button text="Book Appointment" link="/Contact#FixAppointment" className="mt-7 py-4 px-7" />
+              <Button text="Book Appointment" link="/contact" className="mt-7 py-4 px-7" />
+            </div>
             </div>
           </div>
 

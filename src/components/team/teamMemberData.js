@@ -2,12 +2,12 @@ import { FaXTwitter, FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/
 
 export const teamMembers = [
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647818/UpinderKaur_tlq0di.png",
       name: 'Dr. Upinder Kaur',
       title: 'Psychologist',
-      delay: '0.6s',
+       
       profileLink: '/Doctors#Psychologist',
-      appointmentLink: '/Contact#FixAppointment',
+      appointmentLink: '/contact',
       socialLinks: [
         { href: "#", icon: <FaXTwitter /> },
       { href: "#", icon: <FaFacebookF /> },
@@ -17,7 +17,7 @@ export const teamMembers = [
     },
   
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647752/AmitHarshana_mghg54.png",
       name: 'Dr. Amit Harshana',
       title: 'HIV/ AIDS',
       delay: '0.3s',
@@ -31,10 +31,10 @@ export const teamMembers = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647754/ankur_rtemyv.png",
       name: 'Dr. Ankur',
       title: 'Consultant Anesthesiologist',
-      delay: '0.6s',
+       
       profileLink: '/Doctors',
       appointmentLink: '/Contact#FixAppointment',
       socialLinks: [
@@ -45,7 +45,7 @@ export const teamMembers = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647756/Arvind_suzyrj.png",
       name: 'Dr. Arvind',
       title: 'Psychiatrist',
       delay: '0.1s',
@@ -59,10 +59,10 @@ export const teamMembers = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647756/AshishShah_nzfzag.png",
       name: 'Dr. Ashish Shah ',
       title: 'Psychiatrist',
-      delay: '0.6s',
+       
       profileLink: '/Doctors',
       appointmentLink: '/Contact#FixAppointment',
       socialLinks: [
@@ -73,10 +73,10 @@ export const teamMembers = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647757/BhanuMishra2_axelm8.png",
       name: 'Dr. Bhanu Mishra',
       title: 'Nephrologist',
-      delay: '0.6s',
+       
       profileLink: '/Doctors#Nephrologist',
       appointmentLink: '/Contact#FixAppointment',
       socialLinks: [
@@ -87,10 +87,10 @@ export const teamMembers = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647772/Divija_m9cdkg.png",
       name: 'Dr. Divija Chugh',
       title: 'Gynaecologist',
-      delay: '0.6s',
+       
       profileLink: '/Doctors#Gynaecologist',
       appointmentLink: '/Contact#FixAppointment',
       socialLinks: [
@@ -101,10 +101,10 @@ export const teamMembers = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647785/Harish_belwlk.png",
       name: 'Dr. Harish Chandra ',
       title: 'Psychiatrist',
-      delay: '0.6s',
+       
       profileLink: '/Doctors#Psychiatrist',
       appointmentLink: '/Contact#FixAppointment',
       socialLinks: [
@@ -115,10 +115,10 @@ export const teamMembers = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647790/MadhurMahna_havhjo.png",
       name: 'Dr. Madhur Mahna',
       title: 'Orthopaedic',
-      delay: '0.6s',
+       
       profileLink: '/Doctors#Orthopaedic',
       appointmentLink: '/Contact#FixAppointment',
       socialLinks: [
@@ -129,12 +129,12 @@ export const teamMembers = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647791/Manoj_hbjztv.png",
       name: 'Dr. Manoj Goel',
       title: 'Senior Consultant Physician',
-      delay: '0.6s',
+       
       profileLink: '/Doctors',
-      appointmentLink: '/Contact#FixAppointment',
+      appointmentLink: '/contactus',
       socialLinks: [
          { href: "#", icon: <FaXTwitter /> },
       { href: "#", icon: <FaFacebookF /> },
@@ -143,10 +143,10 @@ export const teamMembers = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647794/Naveen_sh5abr.png",
       name: 'Dr. Naveen Bhamri',
       title: 'General Physician',
-      delay: '0.6s',
+       
       profileLink: '/Docters#Cardiologist',
       appointmentLink: '/Contact#FixAppointment',
       socialLinks: [
@@ -157,10 +157,10 @@ export const teamMembers = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647798/Nitya_vhbqf3.png",
       name: 'Dr. Nitya Subramanian',
       title: 'ENT',
-      delay: '0.6s',
+       
       profileLink: '/Docters#ENT/Hearing',
       appointmentLink: '/Contact#FixAppointment',
       socialLinks: [
@@ -171,10 +171,10 @@ export const teamMembers = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647809/Rajpal_mi0zfz.png",
       name: 'Dr. Rajpal Kaushik',
       title: 'Psychologist',
-      delay: '0.6s',
+       
       profileLink: '/Docters',
       appointmentLink: '/Contact#FixAppointment',
       socialLinks: [
@@ -185,10 +185,10 @@ export const teamMembers = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647809/SachinRajpal_go363x.png",
       name: 'Dr. Sachin Rajpal',
       title: 'Plastic & Cosmetic Surgeon',
-      delay: '0.6s',
+       
       profileLink: '/Docters#Plastic-Cosmetic-Surgeon',
       appointmentLink: '/Contact#FixAppointment',
       socialLinks: [
@@ -200,10 +200,10 @@ export const teamMembers = [
     },
     
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647819/Varun_wiiem9.png",
       name: 'Dr. Varun',
       title: 'Child Specialist',
-      delay: '0.6s',
+       
       profileLink: '/Docters',
       appointmentLink: '/Contact#FixAppointment',
       socialLinks: [
@@ -214,10 +214,10 @@ export const teamMembers = [
       ],
     },
     {
-      imgSrc: "https://www.wsclinic.org/assets/Rajpal-D5bmoC8O.png",
+      imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647819/Virat_pxwplf.png",
       name: 'Dr. Virat',
       title: 'Physiotherapist',
-      delay: '0.6s',
+       
       profileLink: '/Docters',
       appointmentLink: '/Contact#FixAppointment',
       socialLinks: [

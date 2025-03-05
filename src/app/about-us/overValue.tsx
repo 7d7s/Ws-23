@@ -32,7 +32,7 @@ export default function OurValues() {
 
           {/* Right Section - Image */}
           <div className="text-center ">
-            <Image src="https://www.wsclinic.org/assets/MedicalSupport-Di5-6YX-.jpg" alt="Medical Support" className="rounded-lg shadow-lg w-full h-auto object-cover" width={100} height={100} />
+            <Image src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647793/MedicalSupport_txazqr.jpg" alt="Medical Support" className="rounded-lg shadow-lg w-full h-full object-contain" width={1000} height={1000} />
           </div>
         </div>
       </div>

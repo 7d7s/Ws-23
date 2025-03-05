@@ -6,58 +6,58 @@ import {FaComment} from "react-icons/fa";
 const aboutBanner = {
     title: "Articles",
     subtitle: "Articles",
-    backgroundImage: "https://www.wsclinic.org/assets/contactimg-BySp04I7.jpg", // Custom image for About page
+    backgroundImage: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647758/blog_a6wbtt.jpg", // Custom image for About page
   };
 
 const articles = [
   {
-    image: 'https://www.wsclinic.org/assets/Blog1-CXAobCw_.jpg',
+    image: 'https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647758/Blog1_anoszw.jpg',
     date: '12 Jul',
     tags: ['Health', 'Patient'],
     title: 'The Importance of Regular Health Check-ups',
     content:
       'Regular health check-ups are essential for early detection of health issues, ensuring timely treatment and proactive management for wellness.',
     author: {
-      image: 'https://www.wsclinic.org/assets/Blog3-CAUjdUcE.jpg',
+      image: 'https://res.cloudinary.com/ddgbehuxg/image/upload/v1740744300/Author_ost5j9.jpg',
       name: 'Author',
     },
     comments: 9,
   },
   {
-    image: '/article2.jpg',
+    image: 'https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647759/Blog2_wp4i9o.jpg',
     date: '12 May',
     tags: ['Health', 'Patient'],
     title: 'Understanding the Basics of Vaccination',
     content:
       'Vaccination is crucial for public health, providing immunity against infectious diseases. Understanding its benefits and dispelling myths is essential for informed decisions.',
     author: {
-      image: '/author2.jpg',
+      image: 'https://res.cloudinary.com/ddgbehuxg/image/upload/v1740744300/Author_ost5j9.jpg',
       name: 'Author',
     },
     comments: 5,
   },
   {
-    image: '/article3.jpg',
+    image: 'https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647759/Blog3_k5zeot.jpg',
     date: '23 Apr',
     tags: ['Health', 'Patient'],
     title: 'The Significance of Mental Health Awareness',
     content:
       'Mental health awareness is essential for overall well-being. Recognizing and addressing mental health issues promotes fulfilling lives.',
     author: {
-      image: '/author3.jpg',
+      image: 'https://res.cloudinary.com/ddgbehuxg/image/upload/v1740744300/Author_ost5j9.jpg',
       name: 'Author',
     },
     comments: 12,
   },
   {
-    image: '/article4.jpg',
+    image: 'https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647761/Blog4_m4dnaf.jpg',
     date: "07 Apr",
     tags: ["Health", "Patient"],
     title: "Benefits Beyond the Physical",
     content:
       "about physical fitness crucial for mental and emotional well-being. Regular activity reduces stress and boosts mood.",
     author: {
-      image: '/author3.jpg',
+      image: 'https://res.cloudinary.com/ddgbehuxg/image/upload/v1740744300/Author_ost5j9.jpg',
       name: "Author",
     },
     comments: 2,
@@ -110,7 +110,7 @@ export default function Articles() {
                       alt="Author"
                       width={40}
                       height={40}
-                      className="w-10 h-10 rounded-full"
+                      className="w-10 h-10 object-cover rounded-full"
                     />
                     <span className="text-gray-700 font-medium">
                       {article.author.name}

@@ -6,14 +6,14 @@ import Link from "next/link";
 const aboutBanner = {
     title: "Mental Health",
     subtitle: "Mental Health",
-    backgroundImage: "https://www.wsclinic.org/assets/servicesimg-CDlGIeX-.jpg", // Custom image for About page
+    backgroundImage: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647810/servicesimg_svkeib.jpg",
   };
 const MentalHealth = () => {
   const services = [
     {
         title: "Psychiatrist",
         text: "Our psychiatrists provide expert care for mental health conditions, offering therapy, medication management, and comprehensive psychiatric evaluations.",
-        imgSrc: "https://www.wsclinic.org/assets/GeneralPhyscian-BGfafHTQ.png", 
+        imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647804/psychiatrist_undlio.png", 
         imgAlt: "Psychiatrist",
         reverse: false,
         id: "Servic-Psychiatrist"
@@ -21,7 +21,7 @@ const MentalHealth = () => {
       {
         title: "Psychologist",
         text: "Our psychologists offer therapeutic support for emotional and mental well-being, helping patients navigate stress, anxiety, and other psychological issues.",
-        imgSrc: "https://www.wsclinic.org/assets/psychologist-rjJcjBno.png",
+        imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647808/psychologist_ukg0as.png",
         imgAlt: "Psychologist",
         reverse: true,
         id: "Servic-Psychologist"
@@ -29,7 +29,7 @@ const MentalHealth = () => {
       {
         title: "Sexology",
         text: "Our sexologists provide confidential and compassionate care for sexual health concerns, including dysfunctions and relationship issues",
-        imgSrc: "https://www.wsclinic.org/assets/53-DAlTArUo.png", 
+        imgSrc: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647752/53_z5u9ps.png", 
       imgAlt: "Sexology",
       reverse: false,
         id: "Servic-Sexology"

@@ -5,9 +5,9 @@ import './headerModule.css';
 
 const Slider = () => {
   const slides = [
-    { src: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4", type: "video/mp4", containt: "with you at every", heading: "Child Care" },
-    { src: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", type: "video/mp4", containt: "with you at every", heading: "Physical Health" },
-    { src: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4", type: "video/mp4", containt: "with you at every", heading: "Mental Health" },
+    { src: "https://res.cloudinary.com/ddgbehuxg/video/upload/v1740647786/finn_1_ta0jcd.mp4", type: "video/mp4", containt: "with you at every", heading: "Child Care" },
+    // { src: "https://res.cloudinary.com/ddgbehuxg/video/upload/v1740647790/HomeSlide2_tfnkxm.mp4", type: "video/mp4", containt: "with you at every", heading: "Physical Health" },
+    // { src: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4", type: "video/mp4", containt: "with you at every", heading: "Mental Health" },
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -41,11 +41,11 @@ const Slider = () => {
               <source src={slide.src} type={slide.type} />
               Your browser does not support the video tag.
             </video>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center">
-  <h2 className="md:text-6xl text-sm uppercase">{slide.containt} <span className="text-red-800">Step...</span></h2>
-  <h1 className="md:text-6xl text-sm font-extrabold uppercase md:my-8 my-2">{slide.heading}</h1>
-  <div className="mt-4">
-    <Button text="Book An Appointment" link="/contact" className="md:py-3 md:px-7 text-xs md:text-xl" />
+            <div className="absolute inset-0 md:mt-96 mt-28 flex flex-col items-center justify-center text-white text-center">
+  {/* <h2 className="md:text-6xl text-sm uppercase">{slide.containt} <span className="text-red-800">Step...</span></h2> */}
+  {/* <h1 className="md:text-6xl text-sm font-extrabold uppercase md:my-8 my-2">{slide.heading}</h1> */}
+  <div className="">
+    <Button text="Book An Appointment" link="/contact" className="md:py-3 md:px-7 text-xs md:text-xl " />
   </div>
 </div>
 

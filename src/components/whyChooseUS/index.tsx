@@ -33,7 +33,7 @@ function WhyPeopleTrust() {
           <div className="">
             <Image 
               className="rounded-lg shadow-md  w-full" 
-              src="https://www.wsclinic.org/assets/WhyPeopleTrustUs-BW2WD7Pc.jpg" 
+              src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647820/WhyPeopleTrustUs_ygd96g.jpg" 
               alt="Why People Trust Us" 
               width={500} 
               height={400} 

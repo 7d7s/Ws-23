@@ -9,137 +9,137 @@ import Image from "next/image";
 
 const serviceCard = [
     { 
-      image: "https://www.wsclinic.org/assets/Orthopaedic02-CWBYgWJz.jpg",
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647781/GENERALPHYSICIAN_ifxzqf.jpg",
       title: "General Physician", 
       link: "/PhysicalHealth#Servic-GeneralPhysician",
       id: "General-Physician"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Psychiatrist-DroqxBlC.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647766/CHILDSPECIALIST_wehvl9.jpg", 
       title: "Child Specialist", 
       link: "/ChildCare#Servic-ChildSpecialist",
       id: "Child-Specialist"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Orthopaedic02-CWBYgWJz.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647787/Gynaecologist_poufyo.jpg", 
       title: "Gynaecologist", 
       link: "/PhysicalHealth#Servic-Gynaecologist",
       id: "Gynaecologist"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Psychiatrist-DroqxBlC.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647767/Dermatologist_czrkrs.jpg", 
       title: "Dermatologist", 
       link: "/PhysicalHealth#Servic-Dermatologist",
       id: "Dermatologist"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Orthopaedic02-CWBYgWJz.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647776/ENTHearing_edrpp7.jpg", 
       title: "ENT/Hearing", 
       link: "#",
       id: "ENT-Hearing"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Psychiatrist-DroqxBlC.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647795/Nephrologist_lnqjdr.jpg", 
       title: "Nephrologist", 
       link: "/PhysicalHealth#Servic-Nephrologist",
       id: "Nephrologist"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Orthopaedic02-CWBYgWJz.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647762/Cardiologist_mebbmn.jpg", 
       title: "Cardiologist", 
       link: "/PhysicalHealth#Servic-Cardiologist",
       id: "Cardiologist"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Psychiatrist-DroqxBlC.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647799/Orthopaedic02_brng9x.jpg", 
       title: "Orthopaedic", 
       link: "/PhysicalHealth#Servic-Orthopedic",
       id: "Orthopaedic"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Orthopaedic02-CWBYgWJz.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647771/Diabetologist_mzzpo4.jpg", 
       title: "Diabetologist", 
       link: "/PhysicalHealth#Servic-Diabetologist",
       id: "Diabetologist"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Psychiatrist-DroqxBlC.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647803/Plastic_CosmeticSurgeon_pgy2lf.jpg", 
       title: "Plastic & Cosmetic Surgeon", 
       link: "/PhysicalHealth",
       id: "Plastic-Cosmetic-Surgeon",
       class: "fs-7 fw-bold"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Orthopaedic02-CWBYgWJz.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647804/Psychiatrist_l72cy4.jpg", 
       title: "Psychiatrist", 
       link: "/MentalHealth#Servic-Psychiatrist",
       id: "Psychiatrist"
       
     },
     { 
-      image: "https://www.wsclinic.org/assets/Psychiatrist-DroqxBlC.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647806/Psychologist_diqx6p.jpg", 
       title: "Psychologist", 
       link: "/MentalHealth#Servic-Psychologist",
       id: "Psychologist"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Orthopaedic02-CWBYgWJz.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647815/SpeechTherapy_xuacqy.jpg", 
       title: "Speech Therapy", 
       link: "/ChildCare#Servic-SpeechTherapy",
       id: "Speech-Therapy"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Psychiatrist-DroqxBlC.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647798/OccupationalTherapy_v7qqxs.jpg", 
       title: "Occupational Therapy", 
       link: "/ChildCare#Servic-OccupationalTherapy",
       id: "Occupational-Therapy",
       class: "fs-6 fw-bold"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Orthopaedic02-CWBYgWJz.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647804/Physiotherapist_cytrhp.jpg", 
       title: "Physiotherapist", 
       link: "/PhysicalHealth#Service-Physiotherapist",
       id: "Physiotherapist"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Psychiatrist-DroqxBlC.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647774/Dietician_egr4hq.jpg", 
       title: "Dietician", 
       link: "/PhysicalHealth#Servic-Dietician",
       id: "Dietician"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Orthopaedic02-CWBYgWJz.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647819/Vaccinations_mwqqw1.jpg", 
       title: "Vaccinations", 
       link: "/PhysicalHealth",
       id: "Vaccinations"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Psychiatrist-DroqxBlC.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647790/InfectiousDiseaseSpecialist_u9xfom.jpg", 
       title: "Infectious Disease Specialist", 
       link: "/PhysicalHealth#Servic-IDS",
       id: "Infectious-Disease-Specialist",
       class: "fs-7 fw-bold"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Orthopaedic02-CWBYgWJz.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647766/ChildPysiotherphy_onxshq.jpg", 
       title: "Child Pysiotherphy", 
       link: "/PhysicalHealth",
       id: "Child-Pysiotherphy"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Psychiatrist-DroqxBlC.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647786/HIV_AIDS_r2vmmw.jpg", 
       title: "HIV AIDS", 
       link: "/PhysicalHealth",
       id: "General-Physician"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Orthopaedic02-CWBYgWJz.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647789/InfectiousDisease_hisrie.jpg", 
       title: "Infectious Disease", 
       link: "/PhysicalHealth",
       id: "Infectious-Disease"
     },
     { 
-      image: "https://www.wsclinic.org/assets/Psychiatrist-DroqxBlC.jpg", 
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647810/Sexology_jgfqcz.jpg", 
       title: "Sexology", 
       link: "/MentalHealth#Servic-Sexology",
       id: "Sexology"
@@ -163,7 +163,7 @@ const Service = () => {
   };
 
   return (
-    <div className="container mx-auto py-12 overflow-hidden">
+    <div className="container mx-auto py-12 px-4 overflow-hidden">
       <div className="text-center">
         <div className="section-title mb-6">
           <h1 className="relative uppercase mb-4 bottom-line text-red-600 text-3xl font-bold">
@@ -177,7 +177,7 @@ const Service = () => {
       <div className="">
       <Slider {...settings}>
         {serviceCard.map((item, index) => (
-          <div key={index} className="p-3">
+          <div key={index} className="p-2">
             <div className="service text-center service010">
               <div className="service_container mx-auto mb-10">
                 <Image src={item.image} alt="service image" width={100} height={100} className="object-fit-cover rounded-circle"/>

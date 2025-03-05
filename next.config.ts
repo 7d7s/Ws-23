@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'www.wsclinic.org',
+        hostname: 'res.cloudinary.com',
         pathname: '/**',
       },
     ],

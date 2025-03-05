@@ -8,7 +8,7 @@ export default function MissionVision() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
           {/* Left Section - Image */}
           <div className="text-center md:order-1 order-2">
-            <Image src="https://www.wsclinic.org/assets/ourmission-BBV-K6W5.jpg" alt="Our Mission" className="rounded-lg h-auto w-full object-cover" width={100} height={100} />
+            <Image src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647799/ourmission_v2mexc.jpg" alt="Our Mission" className="rounded-lg h-auto w-full object-cover" width={1000} height={1000} />
           </div>
 
           {/* Right Section - Text */}

@@ -14,7 +14,7 @@ interface FeatureItemProps {
 
 const FeatureItem: React.FC<FeatureItemProps> = ({ image, title, points, services }) => {
   return (
-    <div className="lg:w-1/4 md:w-1/2 sm:w-full md:p-4 p-2 item features-image">
+    <div className="lg:w-1/4 md:w-1/2 sm:w-full item features-image">
       <div className="vlt-post--masonry">
         <div className="vlt-post-border">
           <span className="top"></span>
@@ -29,10 +29,11 @@ const FeatureItem: React.FC<FeatureItemProps> = ({ image, title, points, service
               alt={title}
               width={500}  
               height={600}
+              
             />
           </div>
           <div className="item-content w-100">
-            <h5 className="text-white display-4 fs-3 text-uppercase">{title}</h5>
+            <h5 className="text-white display-4 fs-3 font-bold uppercase">{title}</h5>
             <Link href="#"  className="text-white list- alt-tag">
               Read More...
             </Link>

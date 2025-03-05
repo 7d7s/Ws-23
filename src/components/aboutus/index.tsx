@@ -13,8 +13,8 @@ const About: React.FC = () => {
 
   const features: FeatureItemProps[] = [
     {
-      image: "https://www.wsclinic.org/assets/MentalHealth-BvNceQJh.jpg",
-      title: "PHYSICAL HEALTH",
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647799/PhysicalHealth_mfwbji.jpg",
+      title: "physical health ",
       points: [
         "General Physician",
         "Gynaecologist",
@@ -30,8 +30,8 @@ const About: React.FC = () => {
       services: "/services/physicalHealth",
     },
     {
-      image: "https://www.wsclinic.org/assets/MentalHealth-BvNceQJh.jpg",
-      title: "MENTAL HEALTH",
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647794/MentalHealth_rjprbd.jpg",
+      title: "mental health",
       points: [
         "Psychiatrist",
         "Psychologist",
@@ -47,8 +47,8 @@ const About: React.FC = () => {
       services: "/services/mentalHealth",
     },
     {
-      image: "https://www.wsclinic.org/assets/MentalHealth-BvNceQJh.jpg",
-      title: "Kids CARE",
+      image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1740647766/ChildCare_gsucnp.jpg",
+      title: "Kids care",
       points: [
         "Occupational Therapy",
         "Speech Therapy",

@@ -1,6 +1,5 @@
 "use client";
 import ContectUs from "@/components/contactus/index";
-import Button from "@/components/buttons/bookAppointment";
 
 function BookAppointment() {
   return (
@@ -23,11 +22,7 @@ function BookAppointment() {
             Book An Appointment
           </h1>
           <ContectUs />
-          <Button
-            text="Book An Appointment"
-            link={""}
-            className="mt-7 py-4 px-7 w-full bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition duration-300"
-          />
+        
         </div>
       </div>
     </div>
